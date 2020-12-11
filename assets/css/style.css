@@ -1,0 +1,48 @@
+section{
+    background-image: url('./floral_bg.jpg');
+   height: 5000px;
+    
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+}
+button{
+    color:white;
+    background-color: coral;
+    padding: 10px;
+}
+  .img1{
+      border: 1px solid black;
+    
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+
+  }
+  .img2{
+    border: 1px solid black;
+  
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+
+}
+.img3{
+    border: 1px solid black;
+  
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+
+}
+*{
+    box-sizing: border-box;
+}
